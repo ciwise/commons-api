@@ -12,5 +12,31 @@
   </parent>
   <description>This is an application programming interface (API) common library for the CI Wise team</description>
 
+  <properties>
+    <final.name>commons-api-${version}</final.name>
+  </properties>	
+  
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-source-plugin</artifactId>
+            <version>3.0.1</version>
+       	    <configuration>
+              <outputDirectory>target</outputDirectory>
+              <finalName>${final.name}</finalName>
+              <attach>true</attach>
+       	    </configuration>
+		
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+       	<version>2.10.4</version>
+       	<configuration>
+       	</configuration>
+     </plugin>        	
+   </plugins>
+  </build>
 
 </project>
