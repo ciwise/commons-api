@@ -63,7 +63,7 @@ public abstract class BaseAPIClient implements Serializable {
      * </pre>
      * @return
      */
-    public abstract Date getLastMetadataUpdate();
+    public abstract String getLastMetadataUpdate();
     
     /**
      * Returns an informative multi-line string
