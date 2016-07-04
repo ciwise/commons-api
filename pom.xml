@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.ciwise.commons</groupId>
   <artifactId>commons-api</artifactId>
-  <version>0.2.1-SNAPSHOT</version>
+  <version>0.2.1</version>
   <name>CI Wise (API) Common Library</name>
   <description>This is an application programming interface (API) common library for the CI Wise team</description>
   
