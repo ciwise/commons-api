@@ -1,0 +1,40 @@
+<document xmlns="http://maven.apache.org/changes/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/changes/1.0.0 http://maven.apache.org/xsd/changes-1.0.0.xsd">
+  <properties>
+    <title>ChangeLog</title>
+    <author email="david@ciwise.com">David L. Whitehurst</author>
+  </properties>
+  <body>
+    <release version="0.2.1" date="2016-07-04" description="Freedom">
+      <action dev="dlwhitehurst" type="add">
+       API-1 Add README copy in src/markdown to .gitignore 
+      </action>
+      <action dev="dlwhitehurst" type="add">
+       API-2 Pre-Release v0.2.1 minor refactorings and misc. 
+      </action>
+      <action dev="dlwhitehurst" type="add">
+       API-3 Clean up imports all code 
+      </action>
+      <action dev="dlwhitehurst" type="add">
+       API-4 Setup changes file for use with maven-changes-plugin and report 
+      </action>
+      <action dev="dlwhitehurst" type="add">
+       API-4 Setup changes file for use with maven-changes-plugin and report 
+      </action>
+    </release>
+    
+    <release version="0.2.0" date="2016-07-03" description="Java API Change">
+      <action dev="dlwhitehurst" type="fix">
+        Changed the return type for lastUpdateMetadata method.
+      </action>
+    </release>
+
+    <release version="0.1.0" date="2016-07-01" description="First release">
+      <action dev="dlwhitehurst" type="add">
+        Release of BaseAPIClient module to Central Repository for other projects
+        to use.
+      </action>
+    </release>
+  </body>
+</document>
