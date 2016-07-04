@@ -9,7 +9,6 @@
 package org.ciwise.commons.api;
 
 import java.io.Serializable;
-import java.util.Date;
 
 /**
  * This class is used to parent any API Client module that is created at CI Wise.
