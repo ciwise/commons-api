@@ -2,18 +2,27 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.ciwise.commons</groupId>
   <artifactId>commons-api</artifactId>
-  <version>0.2.0</version>
+  <version>0.2.1-SNAPSHOT</version>
   <name>CI Wise (API) Common Library</name>
+  <description>This is an application programming interface (API) common library for the CI Wise team</description>
   
   <parent>
     <groupId>org.ciwise</groupId>
     <artifactId>ciwise</artifactId>
-    <version>1.0.0</version>
+    <version>1.2.0</version>
   </parent>
-  <description>This is an application programming interface (API) common library for the CI Wise team</description>
 
   <properties>
+  	<copyright.year>2015-2016</copyright.year>
+	<repository.user>ciwise</repository.user>
+	<repository.name>commons-api</repository.name>
+	<java.version>1.7</java.version>
     <final.name>commons-api-${project.version}</final.name>
+    <surefire.report.skip>true</surefire.report.skip>
+    <checkstyle.report.skip>true</checkstyle.report.skip>
+    <cobertura.report.skip>true</cobertura.report.skip>
+    <pmd.report.skip>true</pmd.report.skip>
+    <skipTests>true</skipTests>
   </properties>	
   
   <build>
